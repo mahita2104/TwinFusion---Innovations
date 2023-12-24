@@ -1,0 +1,61 @@
+/* Style the main heading */
+.main-heading {
+    font-size: 36px;
+    color: #e5510d;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add a text shadow for better visibility */
+  }
+  
+  /* Style the entire container */
+  .energy-page {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #616060; /* Grey background *#3b3b39/
+    font-family: "Times New Roman", Times, serif; /* Use Times New Roman font */
+  }
+  
+  /* Style the Introduction and Key Attributes sections */
+  .section {
+    color: orange; /* Orange text color */
+    margin-bottom: 20px; /* Add spacing between sections */
+  }
+  
+  /* Style the subsection title */
+  .subsection-title {
+    font-size: 24px; /* Increase font size for subsection titles */
+    font-family: "Times New Roman";
+  }
+  
+  /* Style the paragraphs within sections */
+  .section p {
+    margin: 0 0 15px; /* Add spacing between paragraphs */
+  }
+  
+  /* Style the buttons */
+  .graph-button-container {
+    display: flex; /* Use flexbox to display buttons horizontally */
+    justify-content: center; /* Center-align buttons horizontally */
+    margin-top: 20px; /* Add spacing between sections */
+  }
+  
+  .graph-button {
+    background-color: #3b3b39; /* Grey background */
+    color: white; /* Text color */
+    border: 2px solid orange; /* Add an orange border */
+    border-radius: 4px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Style the selected button */
+  .graph-button.selected {
+    background-color: orange; /* Orange background for the selected button */
+  }
+  
+  /* Apply a hover effect */
+  .graph-button:hover {
+    background-color: darkorange; /* Darker orange color on hover */
+  }
+  

@@ -1,0 +1,60 @@
+/* AboutUs.css */
+
+/* Set the background color for the entire page */
+body {
+    background-color: black;
+  }
+  
+  /* Style for section titles */
+  h1 {
+    font-size: 1.5rem;
+    font-family: 'Times New Roman', sans-serif;
+    margin-bottom: 20px;
+    color: black; /* Text color is black */
+  }
+  
+  /* Style for subsection titles */
+  h2 {
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    color: #474646; /* Update text color to your preferred theme */
+  }
+  
+  /* Style for strong elements */
+  strong {
+    font-weight: bold;
+    font-family: 'Times New Roman', sans-serif;
+    color: #e5510d; /* Update text color to your preferred theme */
+  }
+  
+  /* Style for paragraphs */
+  p {
+    font-size: 1rem;
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 1;
+    margin-bottom: 10px;
+    color: #616060; /* Update text color to your preferred theme */
+  }
+  
+  /* Style for bullet points */
+  ul {
+    font-size: 3rem;
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: #777; /* Update text color to your preferred theme */
+  }
+  
+  /* Style for list items */
+  li {
+    font-size: 3rem;
+    font-family: 'Times New Roman', sans-serif;
+    line-height: 1;
+    margin-bottom: 5px;
+    color: #777; /* Update text color to your preferred theme */
+  }
+  
+  /* Add any additional styles or customizations here */
+  

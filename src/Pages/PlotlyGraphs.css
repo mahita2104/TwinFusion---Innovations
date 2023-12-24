@@ -1,0 +1,12 @@
+/* PlotlyGraphs.css */
+
+/* Center-align and resize Plotly graph */
+.plotly-graphs {
+  display: flex;
+  justify-content: center;
+}
+
+.graph {
+  width: 90%; /* Increase the width to make it longer */
+  border: 1px solid #ddd; /* Add a border with a light gray color */
+}

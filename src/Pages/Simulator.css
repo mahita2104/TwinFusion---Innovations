@@ -1,0 +1,49 @@
+body {
+    background-color: #fff; /* White background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .box {
+    width: 200px;
+    height: 200px;
+    background-color: #3b3b3b; /* White background */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px solid orange;
+  }
+  
+  .button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: darkorange;
+  }
+  
+  .header {
+    background-color: black; /* Gray background for the header */
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,110 @@
+/* Technology Page Styles */
+
+/* Header */
+.header {
+    background-color: #333; /* Dark grey background */
+    color: #fff; /* White text color */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Page Title */
+  .page-title {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+  }
+  
+  /* Technology Feature */
+  .tech-feature {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+  
+  /* Technology Icon Box */
+  .tech-icon-box {
+    background-color: #f0f0f0; /* Light grey background for icon box */
+    border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  
+  /* Technology Icon */
+  .tech-icon {
+    font-size: 36px; /* Smaller icon size */
+    color: #333; /* Icon color */
+  }
+  
+  /* Technology Heading */
+  .tech-heading {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+    color: #e5510d; /* Text color */
+  }
+  
+  /* Technology Description */
+  .tech-description {
+    font-size: 18px;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+    color: #666; /* Text color */
+  }
+  
+  /* Highlighted Text */
+  .highlight {
+    color: #FFA500; /* Highlight color */
+    font-weight: bold;
+  }
+  
+  /* Partners Section */
+  .partners-title {
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #e5510d; /* Text color */
+  }
+  
+  /* Partners Description */
+  .partners-description {
+    font-size: 18px;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+    color: #666; /* Text color */
+  }
+  
+  /* Partner Grid */
+  .partner-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #333; /* Text color */
+    margin-top: 20px;
+  }
+  
+  /* Individual Partner */
+  .partner {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Light grey background for partner box */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Partner Name */
+  .partner-name {
+    flex-grow: 1;
+  }
+  
+  /* Partner Symbol */
+  .partner-symbol {
+    margin-left: 5px;
+  }
+  
+  /* ... (Previous CSS Styles) ... */
+  

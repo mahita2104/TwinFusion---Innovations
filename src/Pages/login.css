@@ -1,0 +1,75 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #616060; /* Gray background color */
+  }
+  
+  .login-box {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .login-box h2 {
+    color: #e5510d; /* Orange text color */
+  }
+  
+  .login-box form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #000; /* Black text color */
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: #e5510d; /* Orange background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #d0450a; /* Darker orange on hover */
+  }
+  
+  p {
+    margin-top: 20px;
+    align-self: center;
+  }
+  
+  p a {
+    color: #e5510d; /* Orange link color */
+  }
+
+  /* Add this to your Login.css file */
+.large-button {
+    width: 250px; /* Adjust the width as needed */
+  }
+  
+  
