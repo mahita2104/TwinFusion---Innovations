@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prophet Model Predictor</title>
+</head>
+<body>
+    <h1>Prophet Model Predictor</h1>
+    <form method="POST" action="/predict">
+        <label for="datetime_input">Enter Datetime:</label>
+        <input type="datetime-local" id="datetime_input" name="datetime_input" required>
+        <br><br>
+        <input type="submit" value="Predict">
+    </form>
+    <br><br>
+    <h2>Input Datetime:</h2>
+    <div id="input_datetime">{{ input_datetime }}</div>
+    <h2>Predicted Daily Yield:</h2>
+    <div id="predicted_yield">{{ predicted_yield }}</div>
+</body>
+</html>
